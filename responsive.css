@@ -1,0 +1,438 @@
+@media screen and (max-width: 991px) {
+    .main_one {
+        margin-left: 5.5vw;
+    }
+
+    .main {
+        background-position: center;
+
+    }
+
+    .first {
+        color: black;
+        margin: 0px 0px;
+    }
+
+    ul {
+        /* display: none; */
+        position: absolute;
+        flex-direction: column;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        background-color: white;
+    }
+
+    ul.active {
+        left: 0;
+    }
+
+    .newul {
+        gap: 2.5vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        align-items: center;
+    }
+
+    nav li:hover {
+        border: 1px solid blue;
+        width: 100%;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    nav ul {
+        width: 100%;
+        align-items: center;
+    }
+
+    
+
+    #ham_bar {
+        display: block;
+        visibility: visible;
+        margin-right: 35px;
+    }
+
+
+    .second {
+        width: 380px;
+    }
+
+    .about {
+        width: 380px;
+    }
+
+    .progress {
+        width: 45vw;
+    }
+
+    .serviceone {
+        width: 31vw;
+    }
+
+    .imageone img {
+        width: 22vw;
+    }
+
+    .imagetwo img {
+        width: 22vw;
+    }
+
+    .imagethree img {
+        width: 22vw;
+    }
+
+    .imagefour img {
+        width: 22vw;
+    }
+
+    .logo {
+        margin-left: 6vw;
+    }
+
+    .profilepic {
+        width: 41vw;
+        height: 56vh;
+        border-radius: 63vw;
+        margin-left: 8vw;
+        margin-right: 5vw;
+
+    }
+
+    .copyright i {
+        margin-top: 4px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        height: 70vh;
+    }
+
+    .divone {
+        font-size: 32px;
+    }
+
+    .main_one {
+        margin-left: 0px;
+    }
+
+    .profilepic {
+        width: 37vw;
+        height: 38vw;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .leftside {
+        font-size: 12px;
+    }
+
+    .about {
+        margin-bottom: 7vw;
+    }
+
+    .about h3 {
+        font-size: 42px;
+    }
+
+    .progress {
+        width: 40vw;
+    }
+
+    .title {
+        font-size: 42px;
+    }
+
+    .details {
+        font-size: 13px;
+        margin-top: 4vw;
+    }
+
+    .card_first {
+        margin-bottom: 6.5vw;
+    }
+
+    .card_title {
+        font-size: 2.1vw;
+    }
+
+    .card_one {
+        flex-basis: 40%;
+    }
+
+    .card_one1 {
+        flex-basis: 40%;
+    }
+
+    .card_one i {
+        margin-bottom: 3.5vw;
+    }
+
+    .card_one1 i {
+        margin-bottom: 3.5vw;
+    }
+
+
+
+    .allservice {
+        flex-direction: column;
+    }
+
+    .serviceone {
+        width: 70%;
+        margin-left: 14vw;
+        margin-right: 14vw;
+    }
+
+    
+
+    .same {
+        flex-basis: 35%;
+    }
+
+    .same img {
+        width: 42vw;
+    }
+
+    .copyright i {
+        margin-top: 2px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        background-position: center;
+        margin-bottom: 26vw;
+    }
+
+    .main_one {
+        margin-left: 6vw;
+    }
+
+    .profilepic {
+        width: 100vw;
+        height: 100vh;
+        margin: 0px;
+
+    }
+
+    .divtwo {
+        font-size: 3.5vw;
+        font-family: fantasy;
+    }
+
+    .leftside {
+        font-size: 13px;
+    }
+
+    .allabout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .about {
+        align-items: center;
+        margin-bottom: 15vw;
+
+    }
+
+    .second {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 11vw;
+    }
+
+    .details {
+        line-height: 35px;
+    }
+
+    .detailstwo {
+        margin-bottom: 3vw;
+    }
+
+    .progress {
+        width: 90vw;
+    }
+
+    .allservice {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card_second {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 11vw;
+    }
+
+    .card_first {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card_title {
+        font-size: 3.6vw;
+    }
+
+    .card_one {
+        width: 85vw;
+        margin-bottom: 5vw;
+    }
+
+    .card_one1 {
+        width: 85vw;
+        margin-bottom: 5vw;
+    }
+
+    .card_one i {
+        font-size: 5vw;
+        margin-bottom: 17px;
+    }
+
+    .card_one1 i {
+        font-size: 5vw;
+        margin-bottom: 17px;
+    }
+
+    .quote {
+        margin-bottom: 11vw;
+    }
+
+    .speaker {
+        font-size: .6rem;
+    }
+
+    .serviceone {
+        width: 100%;
+    }
+
+    .images {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .imageone img {
+        width: 85vw;
+        height: 100vh;
+
+    }
+
+    .imagetwo img {
+        width: 85vw;
+        height: 100vh;
+
+    }
+
+    .imagethree img {
+        width: 85vw;
+        height: 100vh;
+
+    }
+
+    .imagefour img {
+        width: 85vw;
+        height: 100vh;
+
+    }
+
+    .contactus {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .contactus .containerr {
+        width: 100vw;
+
+    }
+
+    .first {
+        margin-left: 3vw;
+        margin-right: 3vw;
+        margin-top: 10vw;
+    }
+
+    .detailstwo {
+        margin-top: 2vw;
+
+    }
+
+
+    .columnone h3 {
+        font-size: 1rem;
+    }
+
+    .columnone p {
+        font-size: 0.5rem;
+        margin-top: 23%;
+    }
+
+    .columntwo h3 {
+        font-size: 1rem;
+    }
+
+    .columntwo .links {
+        margin-top: 23%;
+        margin-bottom: 12px;
+    }
+
+    .links a {
+        font-size: .5rem;
+    }
+
+    .columnthree h3 {
+        font-size: 1rem;
+    }
+
+    .columnthree .links {
+        margin-top: 23%;
+    }
+
+    .columnfour .links {
+        margin-top: 15%;
+    }
+
+    .columnfour h3 {
+        font-size: 1rem;
+    }
+
+    .address {
+        font-size: .5rem;
+    }
+
+    .email {
+        font-size: 0.5rem;
+    }
+
+    .media a {
+        font-size: 0.7rem;
+        margin-right: 1vw;
+
+    }
+
+    .media {
+        margin-top: -9px;
+    }
+
+    .copyright i {
+        margin-top: 2px;
+        font-size: 1.5vw;
+    }
+
+    .copyright p {
+        font-size: 1.5vw;
+    }
+
+}
