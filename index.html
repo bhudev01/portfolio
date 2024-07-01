@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Personal portfolio</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">BHUDEV</div>
+        <nav>
+            <ul class="newul" id="nav-links">
+                <li><a href="#home" class="first">HOME</a></a></li>
+                <li><a href="#about">ABOUT</a></a></li>
+                <li><a href="#services">SERVICES</a></a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></a></li>
+                <li><a href="#contact">CONTACT ME</a></a></li>
+            </ul>
+            <i class="fa-solid fa-bars" id="ham_bar" onclick="ChangeIcon(this)"></i>
+        </nav>
+
+    </header>
+    <div class="main" id="home">
+        <div class="main_one">
+            <div class="extra">
+                <h6>Hello, I'm</h6>
+                <div class="line"></div>
+            </div>
+
+            <div class="divone">Bhudev Choudhury</div>
+            <div class="divtwo"><span class="texttt"></span></div>
+            <p class="leftside">Passionate web developer with a flair for clean, efficient code and<br> a knack for
+                turning concepts into captivating online experiences.</p>
+
+            <button class="contact"><a href="#contact">Contact Now</a> </button>
+        </div>
+        <img src="profile_pic_demo.jpg" alt="profile pic" class="profilepic">
+    </div>
+    <div class="allabout" id="about">
+        <div class="about">
+            <h3>SKILLS</h3>
+            <div class="aboutmesection">
+                <div class="text">HTML</div>
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="hello progress-bar bg-blue" style="width: 95%">95%</div>
+                </div>
+                <div class="text">CSS</div>
+                <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <div class="hell progress-bar bg-blue text-white" style="width: 90%">90%</div>
+                </div>
+                <div class="text">JAVASCRIPT</div>
+                <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="hellojavascript progress-bar bg-blue text-white" style="width: 85%">85%</div>
+                </div>
+                <div class="text">REACT JS</div>
+                <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="helloreactjs progress-bar bg-blue" style="width: 80%">80%</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="second">
+            <div class="title">ABOUT ME</div>
+            <p class="details">Hey there! I'm Bhudev, a dedicated web developer with a passion for crafting elegant,
+                functional, and user-centric websites. With 2 years of experience in the ever-evolving realm of web
+                development, I've honed my skills in front-end and back-end technologies to bring digital concepts to
+                life.
+            </p>
+            <div class="detailsto">
+                <div class="detailstwo"><span class="aboutme_title">Profile:</span> web developement</div>
+                <div class="detailstwo"><span class="aboutme_title">Domain:</span> Full stack (Personal, Business
+                    website etc.)</div>
+                <div class="detailstwo"><span class="aboutme_title">Technology:</span>Html5, Css3, Javascript, React js
+                    etc.</div>
+                <div class="detailstwo"><span class="aboutme_title">Language:</span> English, Hindi, Assamese</div>
+                <div class="detailstwo"><span class="aboutme_title">Other skill:</span> Search Engine Optimization</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="services" id="services">
+        <!-- <div class="title">My Services</div> -->
+        <!-- <div class="title">We do awesome services for our clients</div> -->
+
+        <div class="serviceshead">
+            <div>SERVICES</div>
+            <p><b>What i offer</b></p>
+        </div>
+
+
+        <div class="card_first">
+            <div class="card_one1">
+                <i class="fa-regular fa-image"></i>
+                <span class="card_title">01. BRANDING</span>
+                <p class="card_para">Don't look exactly like your 9 other competitors! Get your brand voice, style and
+                    differentiating factor with my branding package. Branding helps you stand out from your competition
+                    and helps your customer remember and feel special about you.</p>
+            </div>
+            <div class="card_one1">
+                <i class="fa-solid fa-display"></i>
+                <span class="card_title">02. WEB DESIGN + DEVELOPMENT</span>
+                <p class="card_para">Most people search a business online to verify its credibility. In some cases its
+                    the main source of bread and butter. Let me design and build you a website that helps your business
+                    thrive and not just sit there and populate the internet with just another online brochure.</p>
+            </div>
+            <div class="card_one1">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span class="card_title">03. SEO</span>
+                <p class="card_para">Does your website show up on a google search? If not then you are missing tons of
+                    leads and sales via free google traffic. Let me help your website rank #1 on Google on your targeted
+                    keywords and see your leads and sales explode.</p>
+            </div>
+            <div class="card_one1">
+                <i class="fa-regular fa-pen-to-square"></i>
+                <span class="card_title">04. Web Copywriting</span>
+                <p class="card_para">A website with a copy doesn't really sell it just attracts. Let me help you get an
+                    amazing conversion-focused website copy that sells on your behalf. A good design captures, but a
+                    good copy sells (already included in growth and business plan)</p>
+            </div>
+            <div class="card_one1">
+                <i class="fa-solid fa-filter"></i>
+                <span class="card_title">05. Conversion Optimization</span>
+                <p class="card_para">What is the use of a website when it doesn't convert? I consult and help you get
+                    better conversion from your existing site or even better, I redesign it to fix your leaking funnel.
+                    Don't waste money on ads without optimizing your website for conversions.</p>
+            </div>
+            <div class="card_one1">
+                <i class="fa-solid fa-gear"></i>
+                <span class="card_title">06. Maintenance + Updates</span>
+                <p class="card_para">My maintenance plan ensures you have a website that is always online, secured and
+                    up to date. Removing all the hassle of the website maintenance and security and leave the room for
+                    your business to grow and thrive.</p>
+            </div>
+        </div>
+        <div class="card_second">
+            
+        </div>
+
+
+        <!-- <div class="allservice">
+            <div class="serviceone">
+                <img src="laptop.png" class="chef" alt="">
+                <div class="servicename">Portfolio website</div>
+                <p class="servicedetails">I create attractive portfolio website to artists, photographers, designers,
+                    and creative professionals. I prioritize your unique style and vision. With intuitive navigation,
+                    responsive design, and seamless integration of multimedia elements. i will add sleek design, easy
+                    navigation, and responsive layout so your website will stand out. From concept to launch, I
+                    prioritize your vision, offering seamless integration, user-friendly interfaces, and compelling
+                    visuals to leave a lasting impression.</p>
+                <div class="verynew">
+                <div class="unkn">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p>100% all Device responsive</p>
+                </div>
+                <div class="unkn">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p>Easy navigation with seamless integration</p>
+                </div>
+                <div class="unkn">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p>Complete SEO optimization</p>
+                </div>
+                <div class="unkn">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p>Modern Attractive user friendly design</p>
+                </div>
+                <div class="unkn">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p>User friendly interface</p>
+                </div>
+            </div>
+            </div>
+            <div class="serviceone">
+                <img src="shoping.png" class="chef" alt="">
+                <div class="servicename">Ecommerce website</div>
+                <p class="servicedetails">
+                    My e-commerce website development service provides comprehensive solutions for your online store
+                    needs. From platform selection to design, security, SEO, and analytics, i ensure a seamless
+                    shopping experience. Tailored to your brand, our expertise guarantees a visually appealing and
+                    efficient platform to boost your sales and customer satisfaction.</p>
+                <div class="verynew">
+                <div class="unkn">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p>100% all Device responsive</p>
+                </div>
+                <div class="unkn">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p>Complete SEO optimization</p>
+                </div>
+                <div class="unkn">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p>Secure payment methods</p>
+                </div>
+                <div class="unkn">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p>User friendly interface</p>
+                </div>
+                <div class="unkn">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p>Modern attractive design</p>
+                </div>
+            </div>
+            </div>
+            <div class="serviceone">
+                <img src="chef.png" class="chef" alt="">
+                <div class="servicename">Business website</div>
+                <p class="servicedetails">I create website for entrepreneurs and enterprises seeking to establish a
+                    strong online presence. My service delivers custom solutions to
+                    establish your online presence effective. From responsive design to user-friendly interfaces, i
+                    prioritize functionality and aesthetics. Services include e-commerce integration, SEO optimization,
+                    secure payment gateways, and analytics setup. i tailor my expertise to ensuring your website
+                    reflects your brand
+                    identity and drives results.</p>
+
+                <div class="unkn">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p>100% all device responsive</p>
+                </div>
+                <div class="unkn">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p>Complete SEO optimization</p>
+                </div>
+                <div class="unkn">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p>User friendly interface</p>
+                </div>
+                <div class="unkn">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p>Modern attractive design</p>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <div class="quote">
+        <div class="speaker">“Success is a lousy teacher. It seduces smart people into thinking they can't lose.” ---
+            Bill Gates</div>
+    </div>
+    <section id="portfolio">
+        <div class="portfoliohead">
+            <div>My Projects</div>
+            <p><b>Accomplishment</b></p>
+        </div>
+        <!-- <h3 class="portfoliohead">Check out my work <i class="fa-solid fa-arrow-right fa-sm"
+                style="color: #092ff1;"></i></h3> -->
+        <div class="images">
+            <div class="imageone same"><img src="website1.png" alt=""></div>
+            <div class="imagetwo same"><img src="ecom half.png" alt=""></div>
+            <div class="imagethree same"><img src="resto_demo.png" alt=""></div>
+            <div class="imagefour same"><img src="ecom half.png" alt=""></div>
+        </div>
+    </section>
+
+    <div class="contacttt" id="contact">
+        <div class="contacttitle">
+            <h2>Contact us</h2>
+            <p><b>Have a Project?</b></p>
+        </div>
+        <div class="contactus">
+            <div class="containerr">
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="3623f12a-7e46-44ea-b23b-f2183587d7c5">
+
+                    <label for="fname">Your Name</label>
+                    <input type="text" id="name" name="firstname" placeholder="">
+
+                    <label for="lname">Your Email</label>
+                    <input type="text" id="email" name="Email" placeholder="">
+
+                    <label for="country">Budget</label>
+                    <input type="text" id="budget" name="Budget" placeholder="">
+
+                    <label for="subject">Project Details</label>
+                    <textarea id="subject" name="Message" placeholder="Leave a message.."
+                        style="height:172px"></textarea>
+
+                    <input type="submit" id="submit" onclick="change_text()" value="Submit">
+
+                </form>
+            </div>
+            <div class="first">
+                <div class="firstone">
+                    <div class="contacticon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="contacttext">
+                        <div>Address</div>
+                        <p>Guwahati, Assam India</p>
+                    </div>
+                </div>
+                <div class="firstone">
+                    <div class="contacticon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="contacttext">
+                        <div>Phone</div>
+                        <p>+1987841558</p>
+                    </div>
+                </div>
+                <div class="firstone">
+                    <div class="contacticon"><i class="fa-solid fa-paper-plane"></i></div>
+                    <div class="contacttext">
+                        <div>Email</div>
+                        <p>info@bhudevchoudhury.com</p>
+                    </div>
+                </div>
+                <div class="firstone">
+                    <div class="contacticon"><i class="fa-solid fa-globe"></i></div>
+                    <div class="contacttext">
+                        <div>Website</div>
+                        <p>bhudevchoudhury.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="allfooters">
+            <div class="columnone">
+                <h3>Let's talk </h3>
+                <p>Yeah, we can talk. Let's <br>make your dream come true</p>
+            </div>
+            <div class="columntwo">
+                <h3>Links</h3>
+                <div class="links">
+                    <a href="#home"><i class="fa-solid fa-angle-right"></i>Home</a>
+                    <a href="#about"><i class="fa-solid fa-angle-right"></i>About</a>
+                    <a href="#services"><i class="fa-solid fa-angle-right"></i>Services</a>
+                    <a href="#portfolio"><i class="fa-solid fa-angle-right"></i>Portfolio</a>
+                    <a href="#contact"><i class="fa-solid fa-angle-right"></i>Contact me</a>
+                </div>
+            </div>
+            <div class="columnthree">
+                <h3>Services</h3>
+                <div class="links">
+                    <a href="#services"><i class="fa-solid fa-angle-right"></i>Portfolio website</a>
+                    <a href="#services"><i class="fa-solid fa-angle-right"></i>Ecommerce website</a>
+                    <a href="#services"><i class="fa-solid fa-angle-right"></i>Restaurant website</a>
+                </div>
+            </div>
+            <div class="columnfour">
+                <h3>Have a questions?</h3>
+                <div class="links">
+                    <div class="address"><i class="fa-solid fa-map"></i>Barpeta, Assam, India</div>
+                    <div class="email"><i class="fa-solid fa-envelope"></i>info@bhudevchoudhury.com</div>
+                    <div class="media">
+                        <a href="https://www.linkedin.com/in/bhudev-choudhury-b04a601a5/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/webpro_developer/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="copyright">
+            <i class="fa-regular fa-copyright"></i>
+            <p> 2024 Bhudev Choudhury All copyright reserved</p>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".texttt", {
+            strings: ["Developer", "Coder", "Designer"],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        })
+
+        let ChangeIcon = function (icon) {
+            icon.classList.toggle("fa-xmark")
+        }
+        // <i class="fa-solid fa-xmark"></i>
+
+        // const text = document.querySelector(".texttt");
+        // const textLoad = () => {
+        //     setTimeout(() => {
+        //         text.textContent = "Coder";
+        //     }, 0);
+        //     setTimeout(() => {
+        //         text.textContent = "Freelancer";
+        //     }, 5000);
+        //     setTimeout(() => {
+        //         text.textContent = "Developer";
+        //     }, 10000);
+        // }
+
+        // textLoad();
+        // setInterval(textLoad, 15000);
+
+
+        function change_text() {
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("budget").value = "";
+            document.getElementById("subject").value = "";
+
+        };
+
+        const toggleButton = document.getElementById('ham_bar')
+        const navLinks = document.getElementById('nav-links')
+
+        toggleButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        })
+
+
+    </script>
+
+</body>
+
+</html>
+
+<!-- reff website    https://preview.colorlib.com/#breed2 -->
+<!-- reff website    https://websitedemos.net/portfolio-02/ -->
+<!-- reff website    https://preview.colorlib.com/#clyde -->
+
+<!-- reff website   https://preview.colorlib.com/theme/niko/ -->
+
+
+<!-- reff website video     https://www.youtube.com/watch?v=w9kV0uW1dmI -->
+
+<!-- Form submit tutorials  https://www.youtube.com/watch?v=rHs0b2MaNpg&pp=ygUVc3VibWl0IGZvcm0gdXNpbmcgcGhw -->
