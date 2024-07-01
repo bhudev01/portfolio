@@ -1,0 +1,686 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    background-color: whitesmoke;
+}
+
+
+
+li {
+    margin-right: 63px;
+    list-style: none;
+    display:flex;
+    justify-content: center;
+
+}
+#ham_bar{
+    display: none;
+}
+.first {
+    color: blue;
+}
+
+
+ul {
+    display: flex;
+    margin-right: 33px;
+
+}
+.newul{
+    margin-bottom: 0px;
+    gap: 0.7vw;
+}
+nav a:hover{
+    color: blue; 
+}
+
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.profilepic {
+    width: 31vw;
+    height: 59vh;
+    border-radius: 235px;
+    margin-right: 155px;
+
+}
+
+.divone {
+    font-size: 4.1vw;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+
+.divtwo {
+    font-size: 2.3vw;
+    font-family: fantasy;
+    margin-top: 22px;
+    color: blue;
+
+}
+
+.leftside {
+    margin-top: 27px;
+    margin-left: 0px;
+    color: black;
+    font-family: math;
+    font-size: 1.2vw;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(img/background\ image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 660px;
+    padding-top: 5vw;
+
+}
+.line{
+    background-color: grey;
+    width: 50px;
+    height: 2px;
+
+}
+.extra {
+    margin-bottom: 32px;
+    margin-left: 5px;
+}
+
+.logo {
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: blue;
+    margin-left: 4.5vw;
+}
+
+button.contact  {
+    width: 125px;
+    height: 39px;
+    background: blue;
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    border: none;
+    border-radius: 25px;
+    margin-top: 36px;
+    cursor: pointer;
+    font-family: cursive;
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+
+.contact:hover {
+    background-color: black;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 7vw;
+}
+.allabout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0vw 5vw;
+
+}
+
+.about h3{
+    color: blue;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.about_me img {
+    width: 150px;
+    height: 150px;
+}
+h3 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+.html {
+    margin-top: 20px;
+}
+
+.hello{
+    width: 95%;
+    animation: hello 3s;
+}
+@keyframes hello{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 95%;
+    }
+}
+
+.hell{
+    width: 90%;
+    animation: hell 3s;
+}
+@keyframes hell{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+.hellojavascript{
+    width: 85%;
+    animation: hellojavascript 3s;
+}
+@keyframes hellojavascript{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 85%;
+    }
+}
+.helloreactjs{
+    width: 80%;
+    animation: helloreactjs 3s;
+}
+@keyframes helloreactjs{
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+
+.title {
+    color: blue;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.box {
+    width: 350px;
+    height: 9px;
+    background-color: black;
+}
+.second{
+    width: 470px;
+
+}
+.details{
+    font-size: 16px;
+    margin-top: 40px;
+    font-weight: 500;
+}
+span.aboutme_title {
+    color: black;
+    font-weight: 700;
+    margin-right: .8vw;
+}
+.detailsto{
+    margin-bottom: 3vw;
+}
+.detailstwo {
+    margin-top: 1vw;
+    font-weight: 400;
+}
+.progress{
+    margin-bottom: 45px;
+    width: 430px;
+}
+.text{
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.aboutmesection{
+    margin-top: 20px;
+}
+
+.serviceshead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.serviceshead div{
+    color: blue;
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.serviceshead p{
+    font-size: 17px;
+    margin-top: 5px;
+    margin-top: 10px;
+}
+.serviceone {
+    width: 25vw;
+    background-color: rgb(245 245 245);
+    color: black;
+    padding: 14px;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+  
+}
+.quote {
+    background-color: #3939e7;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+.speaker {
+    color: white;
+   
+    font-size: 1.25vw;
+}
+
+.servicename {
+    font-size: 22px;
+    font-weight: 700;
+    color: blue;
+}
+
+.allservice {
+    display: flex;
+    justify-content: space-around;
+}
+.services .title{
+    margin-left: 40%;
+    margin-bottom: 63px;
+}
+p.servicedetails{
+    margin-top: 16px;
+    text-align: justify;
+    font-weight: 500;
+    color: black;
+}
+
+.unkn{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  .unkn p{
+    margin-left: 9px;
+    font-weight: 600;
+    font-size: 17px;
+  }
+.chef{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.serviceone:hover{
+    color: black;
+    transition: .5s;
+    box-shadow: 0px 6px 20px 0px blue;
+ 
+}
+.serviceone:hover .servicename{
+    color: blue;
+    transition: .5s;
+}
+.serviceone:hover .servicedetails{
+    color: black;
+    transition: .5s;
+}
+.same{
+    flex-basis: 22%;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.imageone img{
+    width:22vw;
+    height: 57vh;
+    border-radius: 20px;
+}
+.imageone{
+    margin-top: 30px;
+}
+.imageone :hover{
+    margin-top: -10px;
+    transition: .5s;
+    border: 1px solid black;
+}
+
+.imagetwo img{
+    width:22vw;
+    height: 57vh;
+    border-radius: 20px;
+}
+.imagetwo{
+    margin-top: 30px;
+}
+.imagetwo :hover{
+    margin-top: -10px;
+    transition: .5s;
+    border: 1px solid black;
+}
+
+.imagethree img{
+    width:22vw;
+    height: 57vh;
+    border-radius: 20px;
+}
+.imagethree{
+    margin-top: 30px;
+}
+.imagethree :hover{
+    margin-top: -10px;
+    transition: .5s;
+    border: 1px solid black;
+}
+
+.imagefour img{
+    width:22vw;
+    height: 57vh;
+    border-radius: 20px;
+}
+.imagefour{
+    margin-top: 30px;
+}
+.imagefour :hover{
+    margin-top: -10px;
+    transition: .5s;
+    border: 1px solid black;
+}
+
+
+.portfoliohead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfoliohead div{
+    color: blue;
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.portfoliohead p{
+    font-size: 17px;
+    margin-top: 15px;
+}
+section i{
+    margin-left: 25px;
+}
+
+.contactus{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    justify-content: space-around;
+}
+.contactus .containerr {
+    width: 45vw;
+}
+
+.contacttitle {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 58px;
+}
+.contacttitle h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: blue;
+}
+.contacttitle p{
+    font-size: 17px;
+    margin-top: 5px;
+}
+/* /// form starts here */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid blue; /* Gray border changed into blue*/
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  label{
+    font-weight: 500;
+  }
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .containerr {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 575px;
+  }
+  /* /// form ends here */
+.firstone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.contacticon i{
+    font-size: 37px;
+    margin-right: 20px;
+}
+.contacttext {
+    color: black;
+    font-size: 20px;
+}
+  .columnone{
+    margin-top: 5%;
+    font-size: 16px;
+  }
+  .columntwo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .columnthree{
+    margin-top: 5%;
+  }
+  .columnfour{
+    margin-top: 5%;
+  }
+  .links{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .allfooters{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    
+  }
+  .links a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 13px;
+  }
+  .columnone p{
+    margin-top: 35px;
+  }
+
+  .columntwo .links{
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+  .columnthree .links{
+    margin-top: 35px;
+   
+  }
+  .columnfour .links{
+    margin-top: 35px;
+   
+  }
+  .media a i{
+    color: blue;
+  }
+  .media a i:hover{
+    color: white;
+  }
+
+  .links a i{
+    margin-right: 10px;
+  }
+  .links a:hover{
+    color: blue;
+  } 
+  .email i{
+    margin-right: 10px;
+  }
+  .address i{
+    margin-right: 10px;
+  }
+  .address{
+    margin-bottom: 13px;
+  }
+  .email{
+    margin-bottom: 13px;
+  }
+  .media{
+    margin-bottom: 13px;
+  }
+  .media a{
+    font-size: 30px;
+    margin-right: 12px;
+  }
+ 
+.card_first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 3.5vw;
+    flex-wrap: wrap;
+}
+
+
+.card_one {
+    display: flex;
+    flex-direction: column;
+    background-color: #ededed;
+    width: 27vw;
+    padding: 2.5vw;
+    border-radius: 7px;
+    flex-basis: 27%;
+   
+}
+.card_one1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #ededed;
+    width: 27vw;
+    padding: 2.5vw;
+    border-radius: 7px;
+    flex-basis: 27%; 
+    margin-bottom: 3vw;
+}
+
+.card_one i{
+    font-size: 3.5vw;
+    margin-bottom: 29px;  
+}
+.card_one1 i{
+    font-size: 3.5vw;
+    margin-bottom: 29px;
+    
+}
+.card_title{
+    font-size: 1.3vw;
+    margin-bottom: 12px;
+    color: blue;
+    font-weight: 600;
+
+}
+.card_para{
+    font-size: 1.1rem;
+}
+.card_one:hover{
+    transition: .5s;
+    box-shadow: 0px 6px 20px 0px blue;
+}
+.card_one1:hover{
+    transition: .5s;
+    box-shadow: 0px 6px 20px 0px blue;
+}
+.copyright{
+    display: flex;
+    background-color: black;
+    color: white;
+    gap: 5px;
+    justify-content: center;
+   
+}
+.copyright i{
+    font-size: 1.1vw;
+    margin-top: 5px;
+
+}
+.copyright p{
+    font-size: 1.1vw;
+}
